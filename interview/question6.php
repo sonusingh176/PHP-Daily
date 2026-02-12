@@ -23,5 +23,12 @@ Ans -
 </head>
 <body>
     
+<div>
+    <?php
+     echo $_COOKIE['cookie_name'];
+     echo $_COOKIE['cookie_value'];
+    
+    ?>
+</div>
 </body>
 </html>
